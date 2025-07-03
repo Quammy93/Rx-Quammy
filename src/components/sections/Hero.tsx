@@ -28,10 +28,9 @@ export function Hero() {
               priority
             />
           </div>
-          <p className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-600 bg-clip-text text-transparent animate-slide-up">
-            {t("Hello, I'm Maxwell Quammy Ahorlu!")}
-            
-          </p>
+          <h1 className="text-[28px] font-bold italic mb-6 bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-600 bg-clip-text text-transparent animate-slide-up">
+            {t("Hi, I'm Maxwell Quammy Ahorlu!")}
+          </h1>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto animate-slide-up">
             {t("hero.subtitle")}
           </p>
