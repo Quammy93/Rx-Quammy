@@ -2,6 +2,10 @@ import { Header } from "@/components/sections/Header"
 import { Hero } from "@/components/sections/Hero"
 import { Projects } from "@/components/sections/Projects"
 import { Skills } from "@/components/sections/Skills"
+import { Blog } from "@/components/sections/Blog"
+import { Testimonials } from "@/components/sections/Testimonials"
+import { Contact } from "@/components/sections/Contact"
+import { Footer } from "@/components/sections/Footer"
 import { BackToTop } from "@/components/common/BackToTop"
 
 export default function Home() {
@@ -12,8 +16,11 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
-        {/* Add other sections here: Blog, Testimonials, Contact, Footer */}
+        <Blog />
+        <Testimonials />
+        <Contact />
       </main>
+      <Footer />
       <BackToTop />
     </div>
   )
