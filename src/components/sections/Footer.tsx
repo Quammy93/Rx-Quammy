@@ -1,34 +1,34 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Instagram, Mail, Phone, MapPin, Heart, ArrowUp } from "lucide-react"
+import { Github, Linkedin, Twitter, Mail, Phone, MapPin, Heart, ArrowUp } from "lucide-react"
 import { useTranslation } from "@/hooks/useTranslation"
 
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/Quammy93",
     icon: Github,
     color: "hover:text-gray-900",
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/maxwell-ahorlu-6833b41ab/",
     icon: Linkedin,
     color: "hover:text-blue-600",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/yourusername",
+    href: "https://twitter.com/@Dev_MacCitY",
     icon: Twitter,
     color: "hover:text-blue-400",
   },
-  {
-    name: "Instagram",
-    href: "https://instagram.com/yourusername",
-    icon: Instagram,
-    color: "hover:text-pink-600",
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://instagram.com/yourusername",
+  //   icon: Instagram,
+  //   color: "hover:text-pink-600",
+  // },
 ]
 
 const quickLinks = [
@@ -40,7 +40,7 @@ const quickLinks = [
   { name: "nav.contact", href: "#contact" },
 ]
 
-const services = ["Web Development", "Mobile Apps", "UI/UX Design", "Consulting", "E-commerce", "API Development"]
+const services = ["Web Development", "Cloud Engineer", "Consulting", "", "API Development"]
 
 export function Footer() {
   const { t } = useTranslation()
@@ -80,7 +80,7 @@ export function Footer() {
                   <span className="text-white font-bold text-lg">Y</span>
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
-                  Your Name
+                  Maxwell Q Ahorlu
                 </span>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">{t("footer.description")}</p>
@@ -89,15 +89,15 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-400 hover:text-white transition-colors">
                   <Mail className="w-4 h-4 mr-3" />
-                  <span className="text-sm">your.email@example.com</span>
+                  <span className="text-sm">Quammy93@gmail.com</span>
                 </div>
                 <div className="flex items-center text-gray-400 hover:text-white transition-colors">
                   <Phone className="w-4 h-4 mr-3" />
-                  <span className="text-sm">+1 (555) 123-4567</span>
+                  <span className="text-sm">+ (233) 244534628</span>
                 </div>
                 <div className="flex items-center text-gray-400 hover:text-white transition-colors">
                   <MapPin className="w-4 h-4 mr-3" />
-                  <span className="text-sm">Your City, Country</span>
+                  <span className="text-sm">Accra, Ghana</span>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ export function Footer() {
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center text-gray-400 text-sm mb-4 md:mb-0">
-                <span>&copy; 2024 Your Name. All rights reserved.</span>
+                <span>&copy; 2024 AHORLU MAXWELL QUAMMY. All rights reserved.</span>
                 <span className="mx-2">•</span>
                 <span className="flex items-center">
                   Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> and lots of coffee
