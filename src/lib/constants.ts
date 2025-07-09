@@ -33,15 +33,23 @@ export const projects: Project[] = [
 ]
 
 export const skills: Skill[] = [
+  { name: "Html", level: 94, category: "frontend"},
+  { name: "CSS", level: 94, category: "frontend"},
   { name: "React/Next.js", level: 95, category: "frontend" },
-  { name: "TypeScript", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", level: 95, category: "frontend" },
+  { name: "TypeScript", level: 80, category: "frontend" },
+  { name: "Tailwind CSS", level: 76, category: "frontend" },
   { name: "Node.js", level: 88, category: "backend" },
   { name: "Python", level: 85, category: "backend" },
+  { name: "Django", level: 82, category: "backend" },
+  { name: "Flask", level: 78, category: "backend" },
+  { name: "Express.js", level: 80, category: "backend" },
+  { name: "javascript", level: 60, category: "backend"},
   { name: "PostgreSQL", level: 80, category: "backend" },
+  { name: "MangoDb", level: 94, category: "backend"},
   { name: "Git/GitHub", level: 92, category: "tools" },
   { name: "Docker", level: 75, category: "tools" },
   { name: "AWS", level: 70, category: "tools" },
+  { name: "Azure", level: 74, category: "tools" },
 ]
 
 export const blogPosts: BlogPost[] = [
@@ -75,31 +83,14 @@ export const blogPosts: BlogPost[] = [
 ]
 
 export const testimonials: Testimonial[] = [
-  {
-    id: "1",
-    name: "Sarah Johnson",
-    role: "CEO",
-    company: "TechStart Inc.",
-    content:
-      "Exceptional work quality and attention to detail. The project was delivered on time and exceeded our expectations.",
-    image: "/placeholder.svg?height=60&width=60",
-  },
-  {
-    id: "2",
-    name: "Michael Chen",
-    role: "Founder",
-    company: "Digital Solutions",
-    content: "Professional, creative, and reliable. I highly recommend for any web development project.",
-    image: "/placeholder.svg?height=60&width=60",
-  },
-  {
-    id: "3",
+   {
+     id: "3",
     name: "Emily Rodriguez",
-    role: "Product Manager",
-    company: "InnovateCorp",
+     role: "Product Manager",
+     company: "InnovateCorp",
     content: "Outstanding technical skills combined with excellent communication. A pleasure to work with.",
     image: "/placeholder.svg?height=60&width=60",
-  },
+   },
 ]
 
 export const translations: Translations = {

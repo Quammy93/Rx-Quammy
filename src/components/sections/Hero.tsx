@@ -99,20 +99,41 @@ export function Hero() {
           </div>
 
           {/* Main Content */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <div className="animate-fade-in">
-              <p className="text-lg font-medium text-gray-600 mb-2">Hello, I'm</p>
-              <h1 className="hero-title gradient-text mb-4">Your Name</h1>
+              <p className="text-lg font-medium italic  text-gray-600 mb-2">Hello, I'm</p>
+              <h1 className="hero-title italic gradient-text text-[20px] mb-2">Maxwell Quammy Ahorlu</h1>
               <div className="relative">
                 <h2 className="hero-subtitle text-gray-600 max-w-3xl mx-auto">
-                  Full Stack Developer & Creative Problem Solver
+                     Software Developer | Teacher | AI Enthusiast | DevOps 
                 </h2>
                 <p className="text-lg text-gray-500 mt-4 max-w-2xl mx-auto leading-relaxed">
                   Crafting exceptional digital experiences with modern technologies. Passionate about creating scalable
                   solutions that make a difference.
                 </p>
               </div>
-            </div>
+            </div> */}
+
+            <div className="text-center space-y-6 px-4 max-w-3xl mx-auto">
+              <div className="animate-fade-in">
+                <p className="text-base font-medium italic text-gray-600 mb-2">
+                  Hello, I'm
+                </p>
+
+                <h1 className="text-6xl font-bold italic text-gray-800 gradient-text mb-2">
+                  Maxwell Quammy Ahorlu
+                </h1>
+
+                <h2 className="text-lg text-gray-600 font-medium">
+                  Software Developer | Teacher | AI Enthusiast | DevOps
+                </h2>
+
+                <p className="text-base text-gray-500 mt-4 leading-relaxed">
+                  Crafting exceptional digital experiences with modern technologies. Passionate about creating scalable
+                  solutions that make a difference.
+                </p>
+              </div>
+
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up pt-8">
@@ -135,7 +156,7 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 max-w-md mx-auto pt-12 animate-slide-up">
               <div className="text-center">
-                <div className="text-2xl font-bold gradient-text">50+</div>
+                <div className="text-2xl font-bold gradient-text">5+</div>
                 <div className="text-sm text-gray-500">Projects</div>
               </div>
               <div className="text-center">

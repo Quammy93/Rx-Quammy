@@ -8,7 +8,7 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver"
 import { projects } from "@/lib/constants"
 import type { Project } from "@/types"
 
-type FilterType = "all" | "web" | "mobile" | "design"
+type FilterType = "all" | "web" | "AI" | "DevOps"
 
 export function Projects() {
   const [activeFilter, setActiveFilter] = useState<FilterType>("all")
@@ -20,8 +20,8 @@ export function Projects() {
   const filters: { key: FilterType; label: string }[] = [
     { key: "all", label: t("projects.all") },
     { key: "web", label: t("projects.web") },
-    { key: "mobile", label: t("projects.mobile") },
-    { key: "design", label: t("projects.design") },
+    { key: "AI", label: t("AI") },
+    { key: "DevOps", label: t("DevOps") },
   ]
 
   return (

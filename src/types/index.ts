@@ -39,7 +39,6 @@ export interface ContactForm {
   email: string
   subject: string
   message: string
-  captchaAnswer: number
 }
 
 export type Language = "en" | "es" | "fr"
