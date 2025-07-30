@@ -8,21 +8,25 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver"
 import { projects } from "@/lib/constants"
 import type { Project } from "@/types"
 
-type FilterType = "all" | "web" | "AI" | "DevOps"
+type FilterType = "all" | "web" | "AI" | "DevOps" | "mobile"
 
 export function Projects() {
   const [activeFilter, setActiveFilter] = useState<FilterType>("all")
   const { t } = useTranslation()
   const { ref, isIntersecting } = useIntersectionObserver()
 
-  const filteredProjects = projects.filter((project) => activeFilter === "all" || project.category === activeFilter)
-
   const filters: { key: FilterType; label: string }[] = [
     { key: "all", label: t("projects.all") },
     { key: "web", label: t("projects.web") },
     { key: "AI", label: t("AI") },
     { key: "DevOps", label: t("DevOps") },
+    { key: "mobile", label: t("projects.mobile") },
   ]
+
+  const filteredProjects = projects.filter(
+    (project) => activeFilter === "all" || project.category === activeFilter
+  )
+
 
   return (
     <section id="projects" className="py-16 px-4 bg-white/50">

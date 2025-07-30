@@ -3,13 +3,12 @@ import type { Project, Skill, BlogPost, Testimonial, Translations } from "@/type
 export const projects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
-    description: "Modern e-commerce solution with React and Node.js",
-    image: "/placeholder.svg?height=300&width=400",
+    title: "Expense Tracker App",
+    description: "Modern expense tracking with Node.js",
+    image: "/expenseapp.png?height=300&width=400",
     category: "web",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example",
+    technologies: ["Node.js"],
+    githubUrl: "https://github.com/Quammy93/Node.js_Backend/tree/main/ExpenseTracker",
   },
   {
     id: "2",
