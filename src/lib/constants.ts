@@ -12,6 +12,15 @@ export const projects: Project[] = [
   },
   {
     id: "2",
+    title: "Personal BlogPost App",
+    description: "Modern blog post app where you can write and publish articles",
+    image: "/Blogapp.jpg?height=300&width=400",
+    category: "web",
+    technologies: ["Node.js"],
+    githubUrl: "https://github.com/Quammy93/Node.js_Backend/tree/main/personal-blog",
+  },
+  {
+    id: "3",
     title: "Task Management App",
     description: "Cross-platform mobile app built with React Native",
     image: "/placeholder.svg?height=300&width=400",
@@ -21,7 +30,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/example",
   },
   {
-    id: "3",
+    id: "4",
     title: "Brand Identity Design",
     description: "Complete brand identity for tech startup",
     image: "/placeholder.svg?height=300&width=400",
