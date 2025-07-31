@@ -16,7 +16,7 @@ export const projects: Project[] = [
     description: "Modern blog post app where you can write and publish articles",
     image: "/Blogapp.jpg?height=300&width=400",
     category: "web",
-    technologies: ["Node.js"],
+    technologies: ["Express.js", "EJS", "Filesystem", "HTML", "CSS"],
     githubUrl: "https://github.com/Quammy93/Node.js_Backend/tree/main/personal-blog",
   },
   {
