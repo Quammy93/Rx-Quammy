@@ -1,0 +1,14 @@
+// // // prisma.config.ts
+// import 'dotenv/config';
+
+// import { defineConfig } from 'prisma/config';
+
+// export default defineConfig({
+//   schema: './prisma/schema.prisma', // ✅ Always points to this file
+// });
+
+// prisma.config.ts
+import 'dotenv/config'    // <-- ensure this is first so .env is loaded
+export default {
+  schema: './prisma/schema.prisma', // or your schema path, e.g. './prisma/mongo.schema.prisma'
+}

@@ -27,20 +27,18 @@
 // }
 
 
+
 import { Header } from "@/components/sections/Header"
 import { Hero } from "@/components/sections/Hero"
 import { Projects } from "@/components/sections/Projects"
 import { Skills } from "@/components/sections/Skills"
-import { Blog } from "@/components/sections/Blog"
+import { BlogManager } from "@/components/sections/BlogManager"
 import { Testimonials } from "@/components/sections/Testimonials"
 import { Contact } from "@/components/sections/Contact"
 import { Footer } from "@/components/sections/Footer"
 import { BackToTop } from "@/components/common/BackToTop"
 
 export default function Home() {
-  // Uncomment the line below to test Tailwind CSS
-  // return <TailwindTest />
-
   return (
     <div className="min-h-screen w-full">
       <Header />
@@ -48,7 +46,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
-        <Blog />
+        <BlogManager />
         <Testimonials />
         <Contact />
       </main>
